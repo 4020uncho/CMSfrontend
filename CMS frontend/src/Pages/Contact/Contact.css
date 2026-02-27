@@ -1,0 +1,62 @@
+/* Contact Page Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}

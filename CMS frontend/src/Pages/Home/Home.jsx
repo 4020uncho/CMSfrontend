@@ -1,21 +1,14 @@
 //rafce auto imports all this code snippet
 import React from 'react'
 import './Home.css'
+import Navbar from '../../Components/Navbar/Navbar'
+import Button from '../../Components/Button/Button'
 
 const Home = () => {
   return (
     <div>
-    <header>
-        <nav className="navbar">
-            <h2 className="logo">Digital Pathshala</h2>
-            <ul className="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="./About">About</a></li>
-                <li><a href="./Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <Navbar/>
+        <Button/>
 
     <section className  ="hero">
         <h1>Empowering Education Digitally</h1>
